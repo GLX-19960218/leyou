@@ -56,7 +56,11 @@
             <artifactId>ly-item-interface</artifactId>
             <version>${leyou.latest.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.leyou.common</groupId>
+            <artifactId>ly-common</artifactId>
+            <version>${leyou.latest.version}</version>
+        </dependency>
         <!--健康检查spring-boot-starter-actuator和jdbc之间形成循环依赖-->
         <!--解决方式把2.0.1.RELEASE改成2.0.2.RELEASE-->
         <dependency>
@@ -64,7 +68,7 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!--阿里云服务器-->
+        <!--阿里云-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
