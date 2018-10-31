@@ -38,3 +38,7 @@ zuul:
     item-service:
      path: /item/** # 将商品微服务映射到/item/**
      service-id: item-service # 指定服务名称
+#打印sql语句
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
