@@ -10,6 +10,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
+// 开启Zuul的网关功能
 @EnableZuulProxy
 public class LyApiGateway {
     public static void main(String[] args) {

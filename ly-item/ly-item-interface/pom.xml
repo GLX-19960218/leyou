@@ -13,6 +13,13 @@
     <artifactId>ly-item-interface</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-core</artifactId>
+            <version>1.0.4</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
