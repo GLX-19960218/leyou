@@ -27,6 +27,18 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.leyou.common</groupId>
+            <artifactId>ly-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!--hadoop hadoop-hdfs-->
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-hdfs</artifactId>
+            <scope>runtime</scope>
+            <version>2.6.4</version>
+        </dependency>
     </dependencies>
 
 
